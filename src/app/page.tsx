@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   const name = 'park';
   const link = 'http://google.com';
