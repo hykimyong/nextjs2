@@ -37,3 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 ### 출처 : 코딩애플 https://www.youtube.com/watch?v=PCkiz2GUFg8&t=377s
+### https://codingapple.com/course-status/
