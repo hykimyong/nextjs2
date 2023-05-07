@@ -1,13 +1,15 @@
-import Link from "next/link";
+import { collections } from "@/util/database";
+import Game from "@/models/game";
 
-export default function Home() {
-  const name = 'park';
-  const link = 'http://google.com';
+export default async function Home() {
+  const games = await collections.games?.find().toArray();
+  // const games = (await collections.games?.find({}).toArray()) as Game[];
+  
+  console.log(games);
+
   return (
     <div>
-      <h4 className="title">애플후레시</h4>
-      <p className="title-sub">by dev {name}</p>
-      <a href={link}></a>
+      안녕
     </div>
   );
 }

@@ -15,12 +15,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) { 
   return (
-    <html lang="en">
+    <html lang="ko">
       <body>
-        <div className="navbar">
-          <Link href="/">홈</Link>
-          <Link href="/list">List</Link>
-        </div>
         {children}
         </body>
     </html>
